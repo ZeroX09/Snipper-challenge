@@ -1,0 +1,13 @@
+{
+  "name": "snippet-template-starter-files",
+  "version": "1.0.0",
+  "description": "Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -c ./tailwind.config.js -i input.css -o ./css/main.css --watch",
+    "build": "npx tailwindcss -c ./tailwind.config.js -i input.css -o ./css/main.css --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
